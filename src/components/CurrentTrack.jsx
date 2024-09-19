@@ -29,6 +29,8 @@ export default function CurrentTrack() {
       }
     };
     getCurrentTrack();
+
+
   }, [token, dispatch]);
   return (
     <Container>

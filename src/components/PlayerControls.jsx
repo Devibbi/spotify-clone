@@ -10,6 +10,7 @@ import { FiRepeat } from "react-icons/fi";
 import { useStateProvider } from "../utils/StateProvider";
 import axios from "axios";
 import { reducerCases } from "../utils/Constants";
+import CurrentTrack from "./CurrentTrack";
 export default function PlayerControls() {
   const [{ token, playerState }, dispatch] = useStateProvider();
 
@@ -58,10 +59,13 @@ export default function PlayerControls() {
         artists: response1.data.item.artists.map((artist) => artist.name),
         image: response1.data.item.album.images[2].url,
       };
+      console.log("Setting currentTrack")
+
       dispatch({ type: reducerCases.SET_PLAYING, currentPlaying });
     } else {
       dispatch({ type: reducerCases.SET_PLAYING, currentPlaying: null });
     }
+    
   };
   return (
     <Container>
