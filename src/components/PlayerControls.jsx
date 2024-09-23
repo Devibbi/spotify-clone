@@ -10,7 +10,6 @@ import { FiRepeat } from "react-icons/fi";
 import { useStateProvider } from "../utils/StateProvider";
 import axios from "axios";
 import { reducerCases } from "../utils/Constants";
-import CurrentTrack from "./CurrentTrack";
 export default function PlayerControls() {
   const [{ token, playerState }, dispatch] = useStateProvider();
 
