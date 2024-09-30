@@ -12,7 +12,7 @@ You can connect any spotify account with it and then do following:
 
 In the project directory, you can run:
 
-### `git clone [url]`
+### `git clone [https://github.com/Devibbi/spotify-clone]`
 
 Clone (downloads) a repository that already exists on GitHub,
 including all of the files, branches, and commits.
@@ -21,7 +21,7 @@ See section about [git clone](https://github.com/git-guides/git-clone)
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://spotify.devibbi.com] to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
