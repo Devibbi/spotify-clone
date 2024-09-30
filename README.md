@@ -20,10 +20,10 @@ See section about [git clone](https://github.com/git-guides/git-clone)
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm run build`
